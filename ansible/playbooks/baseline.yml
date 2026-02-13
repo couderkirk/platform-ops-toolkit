@@ -1,0 +1,7 @@
+---
+- name: Apply baseline configuration to Linux hosts
+  hosts: linux_hosts
+  become: true
+
+  roles:
+    - baselines
