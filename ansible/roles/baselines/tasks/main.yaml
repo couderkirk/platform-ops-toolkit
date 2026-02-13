@@ -1,0 +1,11 @@
+---
+# Baseline tasks for Linux hosts
+
+- name: Ensure common packages are installed
+  package:
+    name: "{{ baseline_packages }}"
+    state: present
+
+- name: Ensure timezone is set
+  timezone:
+    name: "{{ baseline_timezone }}"
