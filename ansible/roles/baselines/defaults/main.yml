@@ -1,0 +1,6 @@
+---
+baseline_packages:
+  - curl
+  - vim
+
+baseline_timezone: UTC
