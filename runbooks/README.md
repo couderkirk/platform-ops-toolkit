@@ -17,7 +17,9 @@ These runbooks are written as lightweight, practical references rather than exha
 
 - **certificate-lifecycle-runbook.md**  
   Documents a standardized process for detecting, renewing, and validating TLS/SSL certificates across infrastructure and application services to prevent avoidable outages.
-
+- **certificate-expiry-response.md**  
+  Runbook outlining the workflow for identifying, renewing, and deploying TLS certificates for IIS-hosted services to prevent outages caused by certificate expiration.
+  
 ---
 
 ## Incident Response
