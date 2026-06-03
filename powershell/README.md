@@ -16,3 +16,8 @@
 
 - **common/ErrorHandlingAndLogging.ps1**  
     Lightweight logging helpers and a reusable try/catch pattern for consistent error handling across scripts.
+
+## Active Directory
+
+- **active-directory/Get-ADLockoutSource.ps1**  
+  Searches domain controller security logs for recent account lockout events and identifies likely source systems for AD account lockout troubleshooting.
